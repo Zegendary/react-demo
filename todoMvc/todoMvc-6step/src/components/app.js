@@ -182,7 +182,7 @@ class App extends React.Component { //定义组件，继承父类
           <h1 className="todo-title">React-Todos</h1>
           <RadioGroup className="radio-wrapper" onChange={this.onChange.bind(this)} value={this.state.value}>
             <Radio value={1}>注册</Radio>
-            <Radio value={2}>登陆</Radio>
+            <Radio value={2}>登入</Radio>
           </RadioGroup>
           <Login loginOrSignUp={this.loginOrSignUp.bind(this)} value={this.state.value}/>
         </div>

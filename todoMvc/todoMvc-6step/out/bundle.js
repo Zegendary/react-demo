@@ -16547,7 +16547,7 @@ var App = function (_React$Component) {
             _react2.default.createElement(
               _radio2.default,
               { value: 2 },
-              '\u767B\u9646'
+              '\u767B\u5165'
             )
           ),
           _react2.default.createElement(_Login2.default, { loginOrSignUp: this.loginOrSignUp.bind(this), value: this.state.value })
