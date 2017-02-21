@@ -1,6 +1,6 @@
 此项目记录了本人从零开始学习用课余时间做经典的 React-todoMVC
 
-每个step做一个关键知识点，希望可以帮助我一样刚开始找不到头绪的同学
+每个step做一个关键知识点，希望可以帮助我一样刚开始找不到头绪的同学，如果有空闲时间我会把详细教程也写出来
 
 文件目录
 
@@ -14,4 +14,4 @@
 
 [todoMvc-5step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-5step)  [演示5](https://zegendary.github.io/react-demo/todoMvc/todoMvc-5step/) 完成todoMvc所有功能，包括全选，清除全部已完成，但暂时不支持本地缓存
 
-[todoMvc-6step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-6step)  [演示6](https://zegendary.github.io/react-demo/todoMvc/todoMvc-6step/) 未出。。。敬请期待
+[todoMvc-6step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-6step)  [演示6](https://zegendary.github.io/react-demo/todoMvc/todoMvc-6step/) 利用LeanCloud第三方储存，将账户，密码，已经todo内容存储到第三方服务器中

@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "antd": "^2.7.1",
+    "leancloud-storage": "^2.1.2",
     "normalize.css": "^5.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"

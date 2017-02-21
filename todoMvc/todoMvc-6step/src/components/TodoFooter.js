@@ -19,7 +19,7 @@ class TodoFooter extends React.Component{
           <Checkbox checked={this.props.isAllChecked} onChange={this.changeAll.bind(this)}/>全选
         </label>
         <span className="item-left">还剩{minus}未完成</span>
-        <Button type="danger"onClick={this.deleteAll.bind(this)}>清除全部已完成</Button>
+        <Button type="danger" size="small" onClick={this.deleteAll.bind(this)}>清除全部已完成</Button>
       </div>
     )
   }
