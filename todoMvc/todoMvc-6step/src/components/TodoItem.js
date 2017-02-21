@@ -24,8 +24,10 @@ class TodoItem extends React.Component {
     return (
       <li onMouseOver={this.handlerMouseIn.bind(this)} onMouseOut={this.handlerMouseOut.bind(this)}>
         <Checkbox checked={this.props.isDone} onChange={this.handlerChange.bind(this)}/>
-        <span className="time">{this.props.time}</span>
-        <span className={className+' task'}>{this.props.text}</span>
+        <span className="time-task">
+          <span className="time">{this.props.time}</span>
+          <span className={className+' task'}>{this.props.text}</span>
+        </span>
         <Button ref="delButton" type="danger" size="small" onClick={this.handlerDelete.bind(this)}>删除</Button>
       </li>
     )
