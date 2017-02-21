@@ -15,3 +15,13 @@
 [todoMvc-5step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-5step)  [演示5](https://zegendary.github.io/react-demo/todoMvc/todoMvc-5step/) 完成todoMvc所有功能，包括全选，清除全部已完成，但暂时不支持本地缓存
 
 [todoMvc-6step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-6step)  [演示6](https://zegendary.github.io/react-demo/todoMvc/todoMvc-6step/) 利用LeanCloud第三方储存，将账户，密码，已经todo内容存储到第三方服务器中
+
+如何下载本项目下的demo？
+
+1. `git clone git@github.com:Zegendary/react-demo.git`
+
+2. `cd react-demo/todoMvc/你感兴趣的步骤`
+
+3. `npm install`
+
+4. `webpack -w`
