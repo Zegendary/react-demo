@@ -86,7 +86,7 @@ __webpack_require__(5);
 /**
  * Created by zhangxinwang on 16/02/2017.
  */
-console.log('success');
+alert('success');
 
 /***/ }),
 /* 2 */
