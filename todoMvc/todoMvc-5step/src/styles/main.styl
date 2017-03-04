@@ -10,27 +10,46 @@
     color red
     font-family "Weibei TC"
     text-align center
+  .user-info
+    display flex
+    justify-content space-between
+    font-size 14px
+    margin 10px 0
   .todo-main
     li
       padding 10px 0
       height 50px
-      .time
+      .time-task
         display inline-block
         vertical-align top
-        width 31%
-        min-width 160px
-        font-size 16px
-      .task
-        display inline-block
-        vertical-align top
-        width 56%
-        font-size 16px
-        &.task-done
-          text-decoration line-through
+        width calc(100% - 75px)
+        font-size 0
+        .time
+          display inline-block
+          vertical-align top
+          width 40%
+          font-size 16px
+        .task
+          display inline-block
+          vertical-align top
+          width 60%
+          font-size 16px
+          &.task-done
+            text-decoration line-through
       .ant-btn
         vertical-align top
         display none
+        width 50px
   .todo-footer
     display flex
     justify-content space-between
     font-size 14px
+.form-wrapper
+  width 250px
+  margin 0 auto
+  .radio-wrapper
+    margin 10px 0
+    width 100%
+    text-align center
+  .login-form-button
+    width 100%

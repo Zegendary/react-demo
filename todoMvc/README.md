@@ -10,11 +10,9 @@
 
 3. [todoMvc-3step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-3step)  [演示3](https://zegendary.github.io/react-demo/todoMvc/todoMvc-3step/) 将项目组件化
 
-4. [todoMvc-4step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-4step)  [演示4](https://zegendary.github.io/react-demo/todoMvc/todoMvc-4step/) 新增delete功能，并引入ant-ui
+4. [todoMvc-4step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-4step)  [演示4](https://zegendary.github.io/react-demo/todoMvc/todoMvc-4step/) 完成todoMvc所有功能，包括全选，清除全部已完成，并引入[Ant-Design](https://ant.design/index-cn)UI
 
-5. [todoMvc-5step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-5step)  [演示5](https://zegendary.github.io/react-demo/todoMvc/todoMvc-5step/) 完成todoMvc所有功能，包括全选，清除全部已完成，但暂时不支持本地缓存
-
-6. [todoMvc-6step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-6step)  [演示6](https://zegendary.github.io/react-demo/todoMvc/todoMvc-6step/) 利用LeanCloud第三方储存，将账户，密码，已经todo内容存储到第三方服务器中
+5. [todoMvc-5step](https://github.com/Zegendary/react-demo/tree/master/todoMvc/todoMvc-5step)  [演示5](https://zegendary.github.io/react-demo/todoMvc/todoMvc-5step/) 利用LeanCloud第三方储存，将账户，密码，已经todo内容存储到第三方服务器中
 
 如何打开本项目下的demo？
 

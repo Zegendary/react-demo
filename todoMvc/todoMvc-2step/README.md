@@ -86,12 +86,9 @@ React 允许将代码封装成组件（component），然后像插入普通 HTML
     $ webpack
 然后打开`index.html`，如果可以在input输入，按下回车可以在下方生成list![成功画面](http://upload-images.jianshu.io/upload_images/1826203-978e6e74113bb79d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-那么恭喜你，第一步圆满完成！
+那么恭喜你，双向绑定功能圆满完成！
 
 [React+webpack从0到1开发一个todoMvc（一）](http://www.jianshu.com/p/aa02a10c5b69) 
-
-[React+webpack从0到1开发一个todoMvc（三）]() 未完成
-
-[React+webpack从0到1开发一个todoMvc（四）]() 未完成
-
+[React+webpack从0到1开发一个todoMvc（三）](http://www.jianshu.com/p/80e54fc179e4) 
+[React+webpack从0到1开发一个todoMvc（四）](http://www.jianshu.com/p/4b3b2f3146e2) 
 [React+webpack从0到1开发一个todoMvc（五）]() 未完成

@@ -17,7 +17,7 @@
         # 确定已经有 package.json，没有就通过 npm init 创建
         # 安装 webpack 依赖
         $ npm install webpack --save-dev
-        # 安装react.js依赖（i是install的简写，-S是--save-dev的简写）
+        # 安装react.js依赖（i是install的简写，-S是--save的简写）
         $ npm i react react-dom -S
   
    剩余的依赖组件参照我源码中的package.json的依赖添加就好。最终，我们得到的package.json应该如下图：
@@ -76,10 +76,7 @@
 
     那么恭喜你，第一步圆满完成！
   
-  [React+webpack从0到1开发一个todoMvc（二）]()  未完成
-  
-  [React+webpack从0到1开发一个todoMvc（三）]()  未完成
-  
-  [React+webpack从0到1开发一个todoMvc（四）]()  未完成
-  
+  [React+webpack从0到1开发一个todoMvc（二）](http://www.jianshu.com/p/ed01cf27b23d) 
+  [React+webpack从0到1开发一个todoMvc（三）](http://www.jianshu.com/p/80e54fc179e4)  
+  [React+webpack从0到1开发一个todoMvc（四）](http://www.jianshu.com/p/4b3b2f3146e2)  
   [React+webpack从0到1开发一个todoMvc（五）]()  未完成

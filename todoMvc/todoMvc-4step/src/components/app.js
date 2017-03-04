@@ -5,6 +5,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import TodoHeader from './TodoHeader'
 import TodoMain from './TodoMain'
+import TodoFooter from './TodoFooter'
 
 class App extends React.Component { //定义组件，继承父类
   constructor() {
@@ -44,15 +45,27 @@ class App extends React.Component { //定义组件，继承父类
       isAllChecked: isAllChecked
     });
   }
+  clearDone(){
+    let todos = this.state.todos.filter(todo => !todo.isDone)
+    this.setState({
+      todos : todos
+    })
+  }
   deleteTodo(index) {
     this.state.todos.splice(index,1)
     this.setState({todos: this.state.todos})
   }
   render(){
+    let info = {
+      isAllChecked: this.state.isAllChecked,
+      todoCount: this.state.todos.length || 0,
+      todoDoneCount: (this.state.todos && this.state.todos.filter((todo) => todo.isDone)).length || 0
+    }
     return (
       <div className="todo-wrapper">
         <TodoHeader addTodo={this.addTodo.bind(this)}/>
         <TodoMain todos={this.state.todos} changeTodoState={this.changeTodoState.bind(this)} deleteTodo={this.deleteTodo.bind(this)}/>
+        <TodoFooter {...info} clearDone={this.clearDone.bind(this)} changeTodoState={this.changeTodoState.bind(this)}/>
       </div>
     )
   }

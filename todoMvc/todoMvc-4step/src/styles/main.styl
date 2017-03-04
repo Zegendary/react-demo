@@ -1,3 +1,36 @@
-.todo-title
-  color red
-  font-family "Weibei TC"
+#app
+  width 60%
+  padding 20px
+  margin 0 auto
+  .todo-empty
+    text-align center
+    padding 10px 0
+    font-size 16px
+  .todo-title
+    color red
+    font-family "Weibei TC"
+    text-align center
+  .todo-main
+    li
+      padding 10px 0
+      height 50px
+      .time
+        display inline-block
+        vertical-align top
+        width 31%
+        min-width 160px
+        font-size 16px
+      .task
+        display inline-block
+        vertical-align top
+        width 56%
+        font-size 16px
+        &.task-done
+          text-decoration line-through
+      .ant-btn
+        vertical-align top
+        display none
+  .todo-footer
+    display flex
+    justify-content space-between
+    font-size 14px
