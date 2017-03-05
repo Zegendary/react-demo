@@ -79,4 +79,4 @@
   [React+webpack从0到1开发一个todoMvc（二）](http://www.jianshu.com/p/ed01cf27b23d) 
   [React+webpack从0到1开发一个todoMvc（三）](http://www.jianshu.com/p/80e54fc179e4)  
   [React+webpack从0到1开发一个todoMvc（四）](http://www.jianshu.com/p/4b3b2f3146e2)  
-  [React+webpack从0到1开发一个todoMvc（五）]()  未完成
+  [React+webpack从0到1开发一个todoMvc（五）](http://www.jianshu.com/p/86b83192917d) 

@@ -91,4 +91,4 @@ React 允许将代码封装成组件（component），然后像插入普通 HTML
 [React+webpack从0到1开发一个todoMvc（一）](http://www.jianshu.com/p/aa02a10c5b69) 
 [React+webpack从0到1开发一个todoMvc（三）](http://www.jianshu.com/p/80e54fc179e4) 
 [React+webpack从0到1开发一个todoMvc（四）](http://www.jianshu.com/p/4b3b2f3146e2) 
-[React+webpack从0到1开发一个todoMvc（五）]() 未完成
+[React+webpack从0到1开发一个todoMvc（五）](http://www.jianshu.com/p/86b83192917d)

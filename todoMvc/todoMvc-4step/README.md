@@ -41,7 +41,9 @@
 
     <Button type="danger" size="small" onClick={this.handlerDelete.bind(this)}>删除</Button>
 
+剩余的样式我们就可以对着[antd components](https://ant.design/components/button-cn/)的demo来开发。
+
 [React+webpack从0到1开发一个todoMvc（一）](http://www.jianshu.com/p/aa02a10c5b69)
 [React+webpack从0到1开发一个todoMvc（二）](http://www.jianshu.com/p/ed01cf27b23d)
 [React+webpack从0到1开发一个todoMvc（三）](http://www.jianshu.com/p/80e54fc179e4) 
-[React+webpack从0到1开发一个todoMvc（五）](#) 未完成
+[React+webpack从0到1开发一个todoMvc（五）](http://www.jianshu.com/p/86b83192917d) 
