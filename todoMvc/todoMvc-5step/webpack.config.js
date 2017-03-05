@@ -3,7 +3,7 @@ module.exports = {
     "./src/entry.js" //入口文件
   ],
   output: {
-    path: '/out/',
+    path: './out/',
     filename: "bundle.js" //输出文件
   },
   module: {
